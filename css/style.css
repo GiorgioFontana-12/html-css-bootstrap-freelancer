@@ -9,3 +9,22 @@
 .bgBlueGreen {
     background-color: #1ABC9C;
 }
+
+
+.colorBlueGreen {
+    color: #1ABC9C;
+}
+
+.square {
+    height: 55px;
+    width: 55px;
+}
+
+.borderNone {
+    border: none !important;
+    transition: none !important;
+}
+
+.card:hover {
+    scale: 1.01;
+}

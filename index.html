@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="stylesheet" href="./css/debug.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Bootstrap Freelancer</title>
@@ -16,9 +17,9 @@
                 <h3 class="fw-bold text-white"> START BOOTSTRAP </h3> 
             </div>
             <div class="">
-                <a class="text-dark text-decoration-none fw-bold fs-5 text-white" href="#">PROFILO</a>
-                <a class="text-dark text-decoration-none fw-bold fs-5 text-white" href="#">ABOUT</a>
-                <a class="text-dark text-decoration-none fw-bold fs-5 text-white" href="#">CONTACT</a>
+                <a class="text-decoration-none fw-bold fs-5 text-white m-2" href="#">PROFILO</a>
+                <a class="text-decoration-none fw-bold fs-5 text-white m-2" href="#">ABOUT</a>
+                <a class="text-decoration-none fw-bold fs-5 text-white m-2" href="#">CONTACT</a>
             </div>
         </div>
     </header>
@@ -75,25 +76,60 @@
     
         <div class="col-12 d-flex justify-content-center p-5 flex-column align-items-center">
             <h2 class="fw-bold fs-1 text-center">CONTACT ME</h2>
-            <div class="col-7 ">
-                <p class="fw-semibold">Name</p>
+            <div class="col-7 d-flex flex-column">
+                <div class="form-floating">
+                    <textarea class="form-control borderNone" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                    <label class=" fw-semibold text-black" for="floatingTextarea">Name</label>
+                </div>
                 <hr>
-                <p class="fw-semibold">Email Address</p>
+                <div class="form-floating">
+                    <textarea class="form-control borderNone" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                    <label class=" fw-semibold text-black" for="floatingTextarea">Email Address</label>
+                </div>
                 <hr>
-                <p class="fw-semibold">Phone Number</p>
+                <div class="form-floating">
+                    <textarea class="form-control borderNone" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                    <label class=" fw-semibold text-black" for="floatingTextarea">Phone Number</label>
+                </div>
                 <hr>
-                <p class="fw-semibold mb-5">Message</p>
+                <div class="form-floating">
+                    <textarea class="form-control borderNone" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                    <label class=" fw-semibold text-black" for="floatingTextarea">Message</label>
+                </div>
                 <hr>
                 <button class="text-white border-white bgBlueGreen rounded ">Send</button>
             </div>
         </div>
     </main>
     <footer>
-        <div class="bgBlu col-12">
-
-
+        <div class="bgBlue col-12 d-flex align-items-center justify-content-center">
+           <div class="col-9 d-flex align-items-start justify-content-between p-5 flex-wrap">
+               <div class="col-md-4 col-12 text-center d-flex flex-column p-3">
+                   <h2 class="text-white">LOCATION</h2>
+                   <p class="fw-bold fs-5 text-white">2215 John Daniel Drive Clark , MO 54243</p>
+               </div>
+               <div class="col-md-4 col-12 text-center d-flex flex-column p-3">
+                   <h2 class="text-white">AROUND THE WEB</h2>
+                   <div class="d-flex flex-row justify-content-between flex-wrap">
+                    <div class="d-flex justify-content-around col-6 col-md-12 col-lg-12 col-xl-6">
+                        <div class="rounded-circle border-white border square d-flex justify-content-center align-items-center m-2 "><i class="text-white fa-brands fa-facebook-f"></i></div>
+                        <div class="rounded-circle border-white border square d-flex justify-content-center align-items-center m-2 "><i class="text-white fa-brands fa-google-plus-g"></i></div>
+                    </div>
+                    <div class="d-flex justify-content-around col-6 col-md-12 col-lg-12 col-xl-6">
+                        <div class="rounded-circle border-white border square d-flex justify-content-center align-items-center m-2 "><i class="text-white fa-brands fa-twitter"></i></div>
+                        <div class="rounded-circle border-white border square d-flex justify-content-center align-items-center m-2 "><i class="text-white fa-brands fa-linkedin-in"></i></div>
+                    </div>
+                   </div>
+               </div>
+               <div class="col-md-4 col-12 text-center d-flex flex-column p-3">
+                   <h2 class="text-white">ABOUT FREELANCER</h2>
+                   <p class="fw-bold fs-5 text-white">Freelance is a fre ti yse, open source Bootstrap tgene created by <a class="text-decoration-none fw-bold fs-5 colorBlueGreen" href="#">Start Bootsrap.</a> </p>
+               </div>
+           </div>
         </div>
-        <div class="bgDarkBlu col-12">
+        <div class="bgDarkBlue col-12 align-items-center justify-content-center p-5 ">
+            <div><p class="text-center text-white fs-6 fw-semibold"> Copyrighs You Website 2019 </p></div>
+
 
 
         </div>
