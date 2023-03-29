@@ -19,7 +19,9 @@
     height: 55px;
     width: 55px;
 }
-
+.square:hover {
+    scale: 1.01;
+}
 .borderNone {
     border: none !important;
     transition: none !important;
@@ -27,4 +29,9 @@
 
 .card:hover {
     scale: 1.01;
+}
+
+
+.paddingXY {
+    padding: 2px 4px;
 }
